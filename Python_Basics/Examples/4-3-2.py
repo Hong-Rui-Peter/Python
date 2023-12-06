@@ -1,6 +1,3 @@
-'''透過 enumerate() 逐一將序列的索引與值進行回傳'''
-seq = ['人', '帥', '真好']
-for index, value in enumerate(seq):
-    print("=" * 30) # 將字元或字串進行乘法運算，可以作到字元/字串生成的效果
-    print(index) # 輸出 索引
-    print(value) # 輸出 值
+version https://git-lfs.github.com/spec/v1
+oid sha256:8355a1bfec4604a53dc64a0eeedda13d082b235b89b9e3185514d41743d61b35
+size 299

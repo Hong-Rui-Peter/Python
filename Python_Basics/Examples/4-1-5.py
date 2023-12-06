@@ -1,18 +1,3 @@
-# 簡單計算
-expression = "2 + 3 * 4"
-result = eval(expression)
-print(result)
-
-
-# 執行程式碼
-x = 10
-code = "x * 2 + 5"
-result = eval(code)
-print(result)
-
-
-# 字串轉數值
-result = eval("3.14")
-print(type(result))
-result = eval("314")
-print(type(result))
+version https://git-lfs.github.com/spec/v1
+oid sha256:d230b46dd66009f8367da9781eea403a99f590f2ae32749ad8a0211d76575d3c
+size 262

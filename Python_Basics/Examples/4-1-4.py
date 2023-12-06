@@ -1,8 +1,3 @@
-# 取得使用者輸入的資料
-data = input('輸入文字後，按下 Enter: ')
-print(data)
-
-# 將使用者輸入強制轉型成 int
-num = int(input('請輸入數字: '))
-print(type(num))
-print(num)
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c401f1ee3b4b2d7b05451e2298467de557fb307ffd153863eb5e665aa1b5fd8
+size 200

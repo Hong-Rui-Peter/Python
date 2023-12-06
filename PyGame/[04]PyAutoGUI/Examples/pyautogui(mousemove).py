@@ -1,20 +1,3 @@
-'''
-PyAutoGUI--moveTo、moveRel
-'''
-import pyautogui
-
-xx=500
-yy=300
-ss=2
-
-#移動到絕對位置
-print(pyautogui.position())
-pyautogui.moveTo(xx,yy,ss)
-print(pyautogui.position())
-
-
-#移動到相對位置
-print(pyautogui.position())
-pyautogui.moveRel(xx,yy,ss)
-print(pyautogui.position())
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3b44e3243017be21c4b919b30d117e3bd2bd4db80445e082b2c246d1bf005bd
+size 310

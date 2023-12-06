@@ -1,35 +1,3 @@
-'''
-while 迴圈
-for 迴圈 
-'''
-# while 迴圈
-count = 1
-while count <= 5:
-    print(count, end="")
-    count = count + 1  # 或是寫成 count += 1
-
-
-
-# for 迴圈 01
-'''
-用法
-range(n, m-1)
-
-說明
-會走訪 n 到 m-1 的數字
-'''
-for i in range(5, 8):
-    print(i, end = ",")
-
-
-
-# for 迴圈 02
-'''
-用法
-range(n, m-1, step)
-
-說明
-以每 step 為間距，走訪 n 到 m-1 的數字
-'''
-for i in range(5, 20, 2):
-    print(i, end = ",")
+version https://git-lfs.github.com/spec/v1
+oid sha256:26ad64366875b5d0d2359d40cc8463e758f7bb2f2dd606a715d5543eecd62c09
+size 444

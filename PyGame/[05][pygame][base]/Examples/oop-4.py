@@ -1,30 +1,3 @@
-'''
-OOP--示範程式-4[方法(Method)]
-'''
-
-class People:
-    def __init__(self,nation,name):
-        self.nation=nation
-        self.name=name
-        
-    def where(self):
-        print(self.nation)
-        
-    def called(self):
-        print(self.name)
-        
-    def bmi(self,weight,height):
-        print(weight/(height/100)**2)
-        
-p1=People("Taiwan","林照陽")
-p2=People("Korea","tzuyang")
- 
-p1.where()
-p1.called()
-p1.bmi(70,175)
-
-p2.where()
-p2.called()
-p2.bmi(44,158)
-
- 
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b95881c24af44173272f9cf9c52816c2e96980732283aa4099fb92576e45c76
+size 518

@@ -1,16 +1,3 @@
-'''一般 list 用法'''
-list01 = []
-for x in range(10):
-    list01.append(x)
-print(list01)
-
-
-
-'''List Comprehension'''
-# 一行直接建立 list
-list02 = [x for x in range(10)]
-print(list02)
-
-# 還可以設定條件
-list03 = [x for x in range(10) if x % 2 == 0]
-print(list03)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f50eecd8c60f6faff8b8dfd2d6a2ecacc3c66047d8927aaf82367c6ed0c1de9f
+size 276

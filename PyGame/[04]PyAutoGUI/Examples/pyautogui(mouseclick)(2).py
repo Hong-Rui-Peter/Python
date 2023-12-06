@@ -1,20 +1,3 @@
-'''
-PyAutoGUI--rightclick、middleclick、leftclick、doubleclick
-'''
-import pyautogui
-
-xx=100
-yy=150
-
-
-#按右鍵
-pyautogui.rightClick(x=xx,y=yy,interval=2)
-#按左鍵
-pyautogui.leftClick(xx,yy,2)
-#連續按左鍵兩次
-pyautogui.doubleClick(xx,yy+200,2)
-#按中鍵
-pyautogui.middleClick(xx+200,yy)
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:762463a7e3cb38a9b69bebc3347898e1fbd6d63b50c0364a2ddc9c6a84d7eabb
+size 323

@@ -1,5 +1,3 @@
-# 9 x 9 乘法表
-for i in range(1, 10):
-    for j in range(1, 10):
-        print(f'{i} x {j} = {i*j}', end="\t")
-    print()
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d3790e88544ab532c15c3f1c99319d1cd7ae50c91e6dc4c53a70e7857b50004
+size 125

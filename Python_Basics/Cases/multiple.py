@@ -1,16 +1,3 @@
-'''
-在限定範圍內，只印出某個數字的倍數
-'''
-
-# 印出 3 的倍數
-for i in range(1, 101):
-    if i % 3 == 0:
-        print(i, end=" ")
-
-# 印出 50 個 = 號
-print("=" * 50)
-
-# 印出 2 跟 3 的公倍數
-for i in range(1, 101):
-    if i % 2 == 0 and i % 3 == 0:
-        print(i, end=" ")
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba73fb81bbc56d24eafd0d148b25f2fddec2196bcc75b7919eb8e16cc778d1ca
+size 304

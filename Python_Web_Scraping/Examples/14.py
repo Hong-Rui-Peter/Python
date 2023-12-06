@@ -1,11 +1,3 @@
-'''
-匯入工具
-'''
-import pyautogui
-
-'''
-請在 Terminal 當中執行
-取得滑鼠座標和游標上的色碼，協助我們定位
-補充: 必須在 Terminal 當中執行
-'''
-pyautogui.displayMousePosition()
+version https://git-lfs.github.com/spec/v1
+oid sha256:52fb83175c2405c5317f68d2f520b25fae305370f6f8e79c06316b16c4d05851
+size 209

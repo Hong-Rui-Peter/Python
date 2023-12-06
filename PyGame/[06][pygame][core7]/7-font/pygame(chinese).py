@@ -1,32 +1,3 @@
-'''
-PyGame--顯示中文
-'''
-import pygame
-import sys
-
-WHITE = (255, 255, 255)
-BLACK = (  0,   0,   0)
-
-def main():
-    pygame.init()
-    pygame.display.set_caption("在Pygame顯示中文")
-    screen = pygame.display.set_mode((800, 600))
-    clock = pygame.time.Clock()
-    font = pygame.font.Font("font.ttf", 80)
-    tmr = 0
-
-    while True:
-        tmr = tmr + 1
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
-
-        txt = font.render("顯示中文囉!!!", True, WHITE)
-        screen.fill(BLACK)
-        screen.blit(txt, [100, 200])
-        pygame.display.update()
-        clock.tick(10)
-
-if __name__ == '__main__':
-    main()
+version https://git-lfs.github.com/spec/v1
+oid sha256:54fbbbc63c88fff618118e3ba1b953544e915923b3715dac61bfb56afbd3422e
+size 758

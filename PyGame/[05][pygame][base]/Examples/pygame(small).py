@@ -1,22 +1,3 @@
-'''
-Pygame示範程式--small
-'''
-import pygame
-
-pygame.init()
-
-screen = pygame.display.set_mode((480,300))
-pygame.display.set_caption("My Game")
-
-
-running = True
-
-while running:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-    pygame.display.flip()
-#    pygame.display.update()
-
-
-pygame.quit()
+version https://git-lfs.github.com/spec/v1
+oid sha256:77c50a6021e0892f1e9d4cb6817d86d29aa7f656a437a136789f8c7468e7b3be
+size 373

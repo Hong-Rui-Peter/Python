@@ -1,10 +1,3 @@
-# 建立一個家長類別
-class Parent():
-    def __init__(self):
-        pass
-    def post(self):
-        return '發話中'
-    
-# 實體化 (instantiation)
-obj_parent = Parent()
-print(obj_parent.post())
+version https://git-lfs.github.com/spec/v1
+oid sha256:0271b23f202903aad24501d631c012a2d18d7c3e74fe8a763960fdca33786f7c
+size 206

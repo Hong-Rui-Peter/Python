@@ -1,27 +1,3 @@
-'''
-TQC+ 程式語言Python 502 乘積
-
-1. 題目說明:
-請開啟PYD502.py檔案，依下列題意進行作答，依使用者輸入的數字作為參數傳遞並計算乘積，使輸出值符合題意要求。作答完成請另存新檔為PYA502.py再進行評分。
-
-2. 設計說明：
-請撰寫一程式，將使用者輸入的兩個整數作為參數傳遞給一個名為compute(x, y)的函式，此函式將回傳x和y的乘積。
-
-3. 輸入輸出：
-輸入說明
-兩個整數
-
-輸出說明
-兩個整數相乘之乘積
-
-範例輸入
-56
-11
-範例輸出
-616
-'''
-x = eval(input())
-y = eval(input())
-def compute(x, y):
-    return x * y
-print( compute(x, y) )
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d06fe1fced55924ec71948169883c3dba25241bccb52e5b72e2922e2d8699b3
+size 660

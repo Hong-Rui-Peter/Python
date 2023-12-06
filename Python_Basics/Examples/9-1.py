@@ -1,11 +1,3 @@
-# 匯入模組
-import myModule
-
-# 計算幾次方
-num = myModule.pow(2, 3)
-print(num)
-
-# 簡單斷句
-txt = "I will always love you"
-list_result = myModule.segmentSentence(txt)
-print(list_result)
+version https://git-lfs.github.com/spec/v1
+oid sha256:38db68a1e0dc8e46a95a9b9b4fe8ac739494512322d4b4473edd0cf5d41d3bd5
+size 195

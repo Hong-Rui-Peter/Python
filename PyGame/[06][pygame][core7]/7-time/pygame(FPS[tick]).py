@@ -1,28 +1,3 @@
-'''
-PyGame--pygame.time.Clock.get_fps()
-'''
-import pygame
-import sys
-
-WHITE = (255, 255, 255)
-BLACK = (  0,   0,   0)
-
-pygame.init()
-pygame.display.set_caption("Pygame-clock.tick")
-screen = pygame.display.set_mode((800, 600))
-clock = pygame.time.Clock()
-font = pygame.font.Font(None, 80)
-
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-
-    fps=clock.get_fps()
-
-    txt = font.render(str(fps), True, WHITE)
-    screen.fill(BLACK)
-    screen.blit(txt, [300, 200])
-    pygame.display.update()
-    clock.tick(30) #一秒30次
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6f612ae431ec2135cd413bb0f01a8e17df9fdf8cc9f7a01d3576d23670930d5
+size 640
