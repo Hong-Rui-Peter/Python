@@ -1,23 +1,3 @@
-'''
-bind--KeyPress--keysym
-'''
-import tkinter
-
-def key_down(e):
-    global key
-    key = e.keysym
-    label["text"] = key
-
-def main_proc():
-    root.after(100, main_proc)
-
-root = tkinter.Tk()
-root.title("取得鍵盤字符")
-root.bind("<KeyPress>", key_down)
-label = tkinter.Label(font=("Times New Roman", 80))
-label.pack()
-
-key = ""
-main_proc()
-root.focus_force()
-root.mainloop()
+version https://git-lfs.github.com/spec/v1
+oid sha256:81475899022dd28f93ec9961427ea502383e0a8b0c614078c38c5dd9ab1d20e3
+size 404

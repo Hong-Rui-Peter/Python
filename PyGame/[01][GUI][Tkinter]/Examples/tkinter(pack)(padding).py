@@ -1,16 +1,3 @@
-'''
-Tkinter-pack-padding
-'''
-
-import tkinter as tk
-    
-app = tk.Tk()
-app.geometry('300x200')
-
-buttonW = tk.Button(app, text="West")
-buttonW.pack(side='left', ipadx=20, padx=30)
-
-buttonE = tk.Button(app, text="East")
-buttonE.pack(side='right', ipadx=20, padx=30)
-
-app.mainloop()
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c44d234a168bc784d1583f5ce1a4be257c35989cc3a2b4abf7cc7ba0f7f9021
+size 293

@@ -1,14 +1,3 @@
-# 氣泡排序法
-
-def sort(n):
-    for i in range(0, len(n)-1):
-        for j in range(0, len(n)-1):
-            if n[j] > n[j+1]: # 如果前大於後
-                # 前後交換
-                temp = n[j+1] 
-                n[j+1] = n[j]
-                n[j] = temp
-    print(n)
-
-
-sort(input("請輸入整數陣列:").split())
+version https://git-lfs.github.com/spec/v1
+oid sha256:dcbca762c4bbaf29250243827dfedc1980f3ac8d35f7236c6f37df8da2eb635d
+size 346

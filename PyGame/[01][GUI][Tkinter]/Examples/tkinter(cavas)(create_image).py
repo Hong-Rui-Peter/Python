@@ -1,19 +1,3 @@
-'''
-Tkinter-Cavas--create_image
-'''
-import tkinter as tk
-from PIL import Image, ImageTk
-
-root = tk.Tk()
-root.title('my window')
-#root.geometry('500x500')
-img = Image.open('image1.jpg')
-img2 = ImageTk.PhotoImage(img)
-
-
-mycanvas = tk.Canvas(root, width=img.size[0], height=img.size[1])
-mycanvas.pack()
-
-mycanvas.create_image(0,0, anchor=tk.NW, image=img2)
-
-root.mainloop()
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d65bbc46b7d42f8d2b106df9be4e00158f60906ed7872bc022b6bce25611301
+size 388

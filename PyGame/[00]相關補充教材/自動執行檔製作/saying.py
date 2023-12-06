@@ -1,18 +1,3 @@
-'''
-自訂模組的示範程式
-'''
-
-import MYMODULE as mm
-
-while True:
-    mm._show(mm._today())
-    mm._show(mm._now(),0.1)
-    mm._show(mm._saying(),0.5)
-    anS=input("沒錯吧.....")
-    if anS=="0":
-        break
-    
-    
-    
-    
-    
+version https://git-lfs.github.com/spec/v1
+oid sha256:689eea3f26edd56e5684959c180b69eeb0f1f4631e07638aa66acd84cedfa154
+size 263

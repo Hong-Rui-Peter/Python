@@ -1,16 +1,3 @@
-'''
-Tkinter-pack-side
-'''
-
-import tkinter as tk    
-    
-app = tk.Tk()
-app.geometry('300x200')
-
-buttonW = tk.Button(app, text="West", width=15)
-buttonW.pack(side='left')
-
-buttonE = tk.Button(app, text="East", width=15)
-buttonE.pack(side='right')
-
-app.mainloop()
+version https://git-lfs.github.com/spec/v1
+oid sha256:43bf0548c8da5fa12f3500a0945a4c49b9dc207e5489bd3f0b03f200f1ba6cbc
+size 276

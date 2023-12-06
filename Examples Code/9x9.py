@@ -1,10 +1,3 @@
-# 打印九九乘法
-
-def nine_to_nine():
-    for i in range(1, 10):
-        for j in range(1, 10):
-            print(i, "*", j, "=", i*j, " ", end=" ")
-        print("\n")
-
-
-nine_to_nine()
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfbaa4b11223f0c6b2f9e15f3a3b9222b8f57f005714895a0eeb873aa49eb7b6
+size 198

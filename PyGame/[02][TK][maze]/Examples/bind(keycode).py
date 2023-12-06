@@ -1,19 +1,3 @@
-'''
-bind--KeyPress--keycode
-'''
-import tkinter
-def key_down(e):
-    global key
-    key = e.keycode
-    label["text"] = key
-
-
-root = tkinter.Tk()
-root.title("取得鍵盤代碼")
-label = tkinter.Label(font=("Times New Roman", 80))
-label.pack()
-key = 0
-
-root.bind("<KeyPress>", key_down)
-root.focus_force()
-root.mainloop()
+version https://git-lfs.github.com/spec/v1
+oid sha256:6188745ac69c4ad530620a84ce676655c1365c2dc8d76f588f42dbe0638b91fa
+size 340

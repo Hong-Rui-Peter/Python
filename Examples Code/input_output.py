@@ -1,11 +1,3 @@
-# 基本出入輸出+string不同格式
-
-def input_print():
-    name = input("請輸入名子:")
-    print(name, "好帥")
-    print(f"{name}好帥")
-    print("{}好帥".format(name))
-    print("fuck python\n")
-
-
-input_print()
+version https://git-lfs.github.com/spec/v1
+oid sha256:12881b537e70de66e46c58f9bd2b70c32767ac9b6e82cebf1a985f19f07c66ee
+size 237
