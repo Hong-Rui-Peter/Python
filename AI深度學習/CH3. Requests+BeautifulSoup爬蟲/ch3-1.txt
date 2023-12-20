@@ -1,6 +1,3 @@
-import requests
-
-url = "https://www.math.thu.edu.tw/"
-html = requests.get(url)
-html.encoding = "utf-8"
-print(html.text)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ceb558fbf3ab9ce3329873ace9ff0dd6d3d5af5c17900f6e1dd9be0a8a7e2cfe
+size 126

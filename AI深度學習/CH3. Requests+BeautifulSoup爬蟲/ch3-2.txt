@@ -1,11 +1,3 @@
-import requests
-url = "https://www.math.thu.edu.tw/"
-html = requests.get(url)
-html.encoding = "utf-8"
-htmllist = html.text.splitlines()
- print(htmllist)
-
-n = 0
-for row in htmllist:
-    if "師資" in row: n+=1
-    print("出現{}次!".format(n))
+version https://git-lfs.github.com/spec/v1
+oid sha256:b22a6f250c10ecf8ee046881b9acd0605ff34d0d72dfed3eac01da7c7a73476a
+size 257
