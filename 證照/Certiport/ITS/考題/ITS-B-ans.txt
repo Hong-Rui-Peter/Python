@@ -1,0 +1,26 @@
+1.B C B D              27.A B
+2.C D B                28.A C
+3.C                    29.D C C
+4.A D                  30.C B
+5.B A A                31.E B C
+6.A A                  32.A B B B
+7.B A G C E            33.A
+8.A B A                34.A C
+9.A D B D              35.C A C
+10.B C                 36.B B A A F D D
+11.B B A A
+12.B D D D
+13.C A D E B
+14.A D C
+15.B A A B
+16.E A B D C
+17.A G F E
+18.C
+19.A
+20.A C D
+21.D
+22.A B A
+23.A D E
+24.A
+25.A A A B
+26.A B
